@@ -11,6 +11,6 @@ app.get("/", (request, response) => {
   );
 });
 
-app.listen(1234, "0.0.0.0", () => {
-  console.log("listening on 0.0.0.0:1234");
+app.listen(3000, "0.0.0.0", () => {
+  console.log("listening on 0.0.0.0:3000");
 });
